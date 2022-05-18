@@ -16,3 +16,14 @@
      background-repeat: no-repeat;
      background-size: 100% 124%;
  }
+ .wrapper {
+    width: 327px;
+    margin: 40px auto;
+  }
+  .container {
+    position: relative;
+    background: white;
+    margin-top: 148px;
+    border-radius: 20px;
+  }
+  
