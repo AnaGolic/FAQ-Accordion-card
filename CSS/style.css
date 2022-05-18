@@ -44,5 +44,14 @@
     position: relative;
     top: 26px;
   }
+  .headerFirst::after{
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    top: 93px;
+    left: 20px;
+    background-image: url("../images/bg-pattern-mobile.svg");
+    background-repeat: no-repeat;
+}
   
   
