@@ -96,7 +96,7 @@ main {
         margin: 10px auto;
       }
       
-      summary:hover {
+      .titelquestion:hover {
         font-weight: 700;
         color: #f47c57;
         margin: auto;
