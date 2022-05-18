@@ -53,5 +53,25 @@
     background-image: url("../images/bg-pattern-mobile.svg");
     background-repeat: no-repeat;
 }
+main {
+    width: 327px;
+    margin: auto;
+    position: relative;
+    z-index: 2;
+    top: -100px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+  }
+  .primary {
+    width: 279px;
+    margin: auto;
+  }
+  
+  h1 {
+    padding-top: 140px;
+    text-align: center;
+    font-size: 2.6rem;
+  }
+
   
   
