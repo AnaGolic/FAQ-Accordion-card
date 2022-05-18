@@ -144,9 +144,7 @@ main {
           width: 86vw;
           height: 100vh;
           background-image: url(../images/bg-pattern-desktop.svg);
-          -webkit-transform: scale(1);
-          transform: scale(1);
-          z-index: -1;
+          
         }
         header::before {
           position: absolute;
