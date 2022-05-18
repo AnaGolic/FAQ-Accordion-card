@@ -26,4 +26,9 @@
     margin-top: 148px;
     border-radius: 20px;
   }
+  img {
+    display: block;
+    margin: auto;
+    width: 100%;
+  }
   
