@@ -74,23 +74,23 @@ main {
   .faq {
     margin-top: 20px;
     }
-    summary {
+    .titelquestion {
         margin: auto;
       }
-      summary::-webkit-details-marker {
+      .titelquestion::-webkit-details-marker {
         display: none;
       }
-      details[open] summary:after {
+      details[open] .titelquestion:after {
         content: url("../images/icon-arrow-down.svg");
         display: inline-block;
         
       }
-      details {
+      .question {
         margin-bottom: 20px;
         padding: 10px;
       }
       
-      p {
+      .answer {
         line-height: 18px;
         font-weight: 400;
         margin: 10px auto;
