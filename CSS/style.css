@@ -100,9 +100,83 @@ main {
         font-weight: 700;
         color: #f47c57;
         margin: auto;
-        cursor: pointer;
-       
+        cursor: pointer; 
       }
+      @media screen and (min-width: 980px) {
+        main {
+          width: 40%;
+          margin-right: 100px;
+          margin-top: -250px;
+        }
+        .wrapper {
+          width: 100%;
+          margin: 129px auto;
+        }
+        .container {
+          width: 920px;
+          margin: auto;
+        }
+        header {
+          width: 472px;
+          margin-left: 26px;
+          height: 359px;
+          top: 125px;
+        }
+        .primary {
+          width: 375px;
+          margin-right: 110px;
+          padding-bottom: 0px;
+        }
+        .headerFirst  {
+          top: -125px;
+          left: -146px;
+          overflow: hidden;
+          height: 65vh;
+          width: 100%;
+        }
+        img {
+          width: 100%;
+          margin-top: 70px;
+        }
+        .headerFirst::after {
+          top: -277px;
+          left: -500px;
+          width: 86vw;
+          height: 100vh;
+          background-image: url(../images/bg-pattern-desktop.svg);
+          -webkit-transform: scale(1);
+          transform: scale(1);
+          z-index: -1;
+        }
+        header::before {
+          position: absolute;
+          content: '';
+          background-image: url(../images/illustration-box-desktop.svg);
+          width: 48%;
+          height: 61%;
+          top: 105px;
+          left: -145px;
+          z-index: 4;
+          background-position: 50% 0;
+          background-repeat: no-repeat;
+        }
+        h1 {
+          padding-top: 78px;
+          margin-left: -300px;
+          font-size: 2rem;
+        }
+        .blocker {
+          position: absolute;
+          height: 240px;
+          width: 240px;
+          background: #8f66e8;
+          z-index: 3;
+          left: -267px;
+          top: 36px;
+          border: none;
+        }
+
+    }
       
 
   
