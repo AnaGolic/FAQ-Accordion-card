@@ -83,9 +83,7 @@ main {
       details[open] summary:after {
         content: url("../images/icon-arrow-down.svg");
         display: inline-block;
-        -webkit-transform: rotate(180deg);
-                transform: rotate(180deg);
-        /* filter: invert(200%) sepia(200%) saturate(200%) hue-rotate(288deg) brightness(102%) contrast(102%); */
+        
       }
       details {
         margin-bottom: 20px;
