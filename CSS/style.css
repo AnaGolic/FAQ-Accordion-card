@@ -116,7 +116,7 @@ h1 {
   padding-bottom: 1rem;
 }
 
-.question {
+.btnactive {
   font-size: 0.8rem;
   display: flex;
   flex-direction: row;
@@ -132,7 +132,7 @@ h1 {
   transition: all 0.3s ease-in-out;
 }
 
-.question img {
+.btnactive img {
   width: 10px;
   height: auto;
 }
@@ -141,7 +141,7 @@ h1 {
   transform: rotate(180deg);
 }
 
-.question:hover {
+.btnactive:hover {
   color: var(--prim-text-red);
   cursor: pointer;
 }
