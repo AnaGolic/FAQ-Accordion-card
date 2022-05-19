@@ -24,77 +24,94 @@
                     
                   </div>
             </header>
-            <main>
-                <div class="primary">
-                  <h1>FAQ</h1>
-                  <div class="faq">
-                    <div class="question">
-                      <h3 class="titelquestion">
-                        How many team members can I invite?
-                    </h3>
-                    <img src="images/icon-arrow-down.svg" alt="acc arrow">
-                    </div>
-                      
-                      <div class="answer">
-                        You can invite up to 2 additional users on the Free plan. There is no limit on
-                        team members for the Premium plan.
-                    </div>
-                    <hr />
-                    <div class="question">
-                        <h3 class="titelquestion">
-                            What is the maximum file upload size?
-                      </h3>
-                      <img src="images/icon-arrow-down.svg" alt="acc arrow">
-                      </div>
-                        
-                        <div class="answer">
-                            No more than 2GB. All files in your account must fit your allotted storage space.
-                      </div>
-                    <hr />
-                    <div class="question">
-                        <h3 class="titelquestion">
-                            How do I reset my password?
-                      </h3>
-                      <img src="images/icon-arrow-down.svg" alt="acc arrow">
-                      </div>
-                        
-                        <div class="answer">
-                            Click “Forgot password” from the login page or “Change password” from your profile page.
-                            A reset link will be emailed to you.
-                      </div>
-                      <hr />
-                      <div class="question">
-                        <h3 class="titelquestion">
-                            Can I cancel my subscription?
-                      </h3>
-                      <img src="images/icon-arrow-down.svg" alt="acc arrow">
-                      </div>
-                        
-                        <div class="answer">
-                            Yes! Send us a message and we’ll process your request no questions asked.
-                      </div>
-                      <hr />
-                      <div class="question">
-                        <h3 class="titelquestion">
-                            Do you provide additional support?
-                      </h3>
-                      <img src="images/icon-arrow-down.svg" alt="acc arrow">
-                      </div>
-                        
-                        <div class="answer">
-                            Chat and email support is available 24/7. Phone lines are open during normal business hours.
-                      </div>
-                  </div>
-                </div>
-              </main>
-
-
-
-
-
-        </div>
-</div>
     
+                
+    <main class="card">
+      <div class="card-images">
+        <div class="bg1"></div>
+        <div class="bg2"></div>
+      </div>
+      <div class="box-wrapper">
+        <img class="box" src="images/illustration-box-desktop.svg" alt="box" />
+      </div>
+      <div class="card-accordion">
+        <section class="qnas">
+          <h1>FAQ</h1>
+          <div class="qna">
+            <div class="question" onclick="toggleAnswer(this)">
+              <p>How many team members can I invite?</p>
+              <div class="icon-wrapper">
+                <img src="images/icon-arrow-down.svg" alt="down arrow icon" />
+              </div>
+            </div>
+            <div class="answer hide">
+              <p>
+                You can invite up to 2 additional users on the Free plan. There
+                is no limit on team members for the Premium plan.
+              </p>
+            </div>
+          </div>
+          <div class="qna">
+            <div class="question" onclick="toggleAnswer(this)">
+              <p>What is the maximum file upload size?</p>
+              <div class="icon-wrapper">
+                <img src="images/icon-arrow-down.svg" alt="down arrow icon" />
+              </div>
+            </div>
+            <div class="answer hide">
+              <p>
+                No more than 2GB. All files in your account must fit your
+                allotted storage space.
+              </p>
+            </div>
+          </div>
+          <div class="qna">
+            <div class="question" onclick="toggleAnswer(this)">
+              <p>How do I reset my password?</p>
+              <div class="icon-wrapper">
+                <img src="images/icon-arrow-down.svg" alt="down arrow icon" />
+              </div>
+            </div>
+            <div class="answer hide">
+              <p>
+                Click “Forgot password” from the login page or “Change password”
+                from your profile page. A reset link will be emailed to you.
+              </p>
+            </div>
+          </div>
+          <div class="qna">
+            <div class="question" onclick="toggleAnswer(this)">
+              <p>Can I cancel my subscription?</p>
+              <div class="icon-wrapper">
+                <img src="images/icon-arrow-down.svg" alt="down arrow icon" />
+              </div>
+            </div>
+            <div class="answer hide">
+              <p>
+                Yes! Send us a message and we’ll process your request no
+                questions asked.
+              </p>
+            </div>
+          </div>
+          <div class="qna">
+            <div class="question" onclick="toggleAnswer(this)">
+              <p>Do you provide additional support?</p>
+              <div class="icon-wrapper">
+                <img src="images/icon-arrow-down.svg" alt="down arrow icon" />
+              </div>
+            </div>
+            <div class="answer hide">
+              <p>
+                Chat and email support is available 24/7. Phone lines are open
+                during normal business hours.
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+      </main>
+
+<script src="main.js"></script>
 </body>
 </html>
 
