@@ -1,21 +1,13 @@
-const toggleAnswer = (e) => {
-    const question = e.childNodes[1];
-    hideAllAnswers(question);
-    e.childNodes[3].classList.toggle("rotate-icon");
-    e.classList.toggle("bold");
-    e.nextElementSibling.classList.toggle("hide");
-  };
-  
-  //hide answers
-  
-  const hideAllAnswers = (question) => {
-    const questionsEl = [...document.querySelectorAll(".question")];
-    questionsEl.forEach((questionEl) => {
-      console.log();
-      if (questionEl.childNodes[1] != question) {
-        questionEl.classList.remove("bold");
-        questionEl.nextElementSibling.classList.add("hide");
-        questionEl.childNodes[3].classList.remove("rotate-icon");
-      }
-    });
-  };
+let clickable = document.querySelectorAll(".expand");
+let len = clickable.length;
+
+for(let i=0; i < len; i++){
+
+  clickable[i].addEventListener("click", function() {
+
+    this.classList.toggle("active");
+    this.nextElementSibling.classList.toggle("hidden");
+
+  })
+
+}
