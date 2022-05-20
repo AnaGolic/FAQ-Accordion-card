@@ -70,6 +70,7 @@ p {
   padding-right: 6rem;
 }
 
+
 .expand {
   display: block;
   text-align: left;
@@ -90,10 +91,14 @@ p {
   float: right;
 }
 
-.expand:hover {
+ .expand:hover {
   color: hsl(14, 88%, 65%);
   cursor: pointer;
 }
+.faq .active{
+  display: none;
+}
+
 
 .active {
   color: hsl(238, 29%, 16%);
