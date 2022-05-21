@@ -104,12 +104,18 @@ p {
 .active::after {
   content: url("icon-arrow-up.svg");
 }
+.item1 .expand.active {
+    width: 22rem;
+    line-height: 1.5;
+    border-bottom: 1px solid hsl(240, 5%, 91%);
+  }
+ 
 
-.hidden {
+.content {
   display: none;
 }
 
-.content {
+.content{
   width: 22rem;
   line-height: 1.5;
   border-bottom: 1px solid hsl(240, 5%, 91%);
