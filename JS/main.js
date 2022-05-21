@@ -1,15 +1,15 @@
-document.addEventListener("DOMContentLoaded",(e){
-let clickable = document.querySelectorAll(".expand");
+document.addEventListener("DOMContentLoaded",(event)=>{
+let buttons= document.querySelectorAll(".faq.expand");
 
 
-[...clickable].forEach(expand) => {
-   
-    expand.addEventListener('click', (){
-      console.log ("clicked");
+[...buttons].forEach(expand=> {
+    let content= expand.nextElementSibling
+document.addEventListener("DOMContentLoaded",(event)=>{
+     
     this.classlist.toggle("active");
-  
+   
 });
 }
-});
-
+);
+})
 
